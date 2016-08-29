@@ -4,10 +4,10 @@ Dev environment
 # PHP5.6
 sudo add-apt-repository ppa:ondrej/php 
 sudo apt-get update
-sudo apt-get install php5.6 php5.6-fpm php5.6-redis php5.6-mbstring php5.6-mysql php5.6-intl php5.6-curl php5.6-dom php5.6-apc php5.6-gd php5.6-xdebug php-gettext
+sudo apt-get install php5.6 php5.6-fpm php-redis php5.6-mbstring php5.6-mysql php5.6-intl php5.6-curl php5.6-xml php5.6-apcu php5.6-gd php-xdebug php-gettext
 
 # PHP7
-sudo apt-get install php php-fpm php-redis php-mbstring php-mysql php-intl php-curl php7.0-xml php7.0-apcu php-gd php-xdebug
+sudo apt-get install php php-fpm php-mbstring php-mysql php-intl php-curl php7.0-xml php7.0-apcu php-gd
 
 # NodeJS
 sudo apt-get install nodejs npm
